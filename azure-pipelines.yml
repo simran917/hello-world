@@ -9,7 +9,7 @@ trigger:
 pool:
   name: Default
   demands:
-  - mycap
+  - agent.name -equals MysecondAgent
 
 variables:
   solution: '**/*.sln'
